@@ -1,0 +1,127 @@
+body {
+	background-color: linen;
+}
+
+div.container {
+	margin: 24px;
+}
+
+p.bioText {
+	margin: 24px;
+}
+
+p.videoText {
+	margin: 24px;
+	font-size: 18px;
+}
+
+#mainHead {
+	font-family: Impact,Verdana, Arial, sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	color: darkslategray;
+}
+
+#imgTable {
+	margin: auto;
+}
+
+#mainImage {
+    display: block;
+	margin: auto;
+}
+
+#leftImage {
+    display: block;
+	margin: auto;
+}
+
+#rightImage {
+    display: block;
+	margin: auto;
+}
+
+#videoTable {
+	margin: auto;
+}
+
+#videoTable th {
+	padding: 24px;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+#videoTable td {
+	padding: 24px;
+	vertical-align: top;
+}
+
+#video1 {
+    display: block;
+	margin: auto;
+	vertical-align: top;
+}
+
+#video2 {
+    display: block;
+	margin: auto;
+	vertical-align: top;
+}
+
+#video3 {
+    display: block;
+	margin: auto;
+	vertical-align: top;
+}
+
+/* Color classes */
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+
+/* Font specification classes */
+p.sansseriffont {
+	font-family: Verdana, Arial, sans-serif;
+}
+
+/* Font modification classes */
+p.bigfont {
+	font-size: 24px;
+}
+p.smallfont {
+	font-size: 8px;
+}
+p.boldfont {
+	font-weight: bold;
+}
+
+/* Text alignment classes */
+p.centeredtext {
+	text-align: center;
+}
+
+/* Custom font classes */
+p.bigorangetext {
+	font-size: 24px;
+	font-weight: bold;
+	color: orange;
+}
+p.styledFont {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	color: lawngreen;
+}
+
+/* ID referenced classes */
+#styledImage {
+	border-style: solid;
+	border-width: thick;
+	border-color: darkorange;
+}
